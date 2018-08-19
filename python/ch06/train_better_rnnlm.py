@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch06')
 from common import config
 # GPUで実行する場合は下記のコメントアウトを消去（要cupy）
 # ==============================================

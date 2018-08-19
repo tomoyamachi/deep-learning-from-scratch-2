@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch07')
 from rnnlm_gen import RnnlmGen
 from dataset import ptb
 

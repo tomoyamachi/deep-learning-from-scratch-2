@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch07')
 import numpy as np
 from common.functions import softmax
 from ch06.rnnlm import Rnnlm

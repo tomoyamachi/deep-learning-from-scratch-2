@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')  # 親ディレクトリのファイルをインポートするための設定
+sys.path.append('ch01')  # 親ディレクトリのファイルをインポートするための設定
 from dataset import spiral
 import matplotlib.pyplot as plt
 
@@ -15,4 +15,4 @@ CLS_NUM = 3
 markers = ['o', 'x', '^']
 for i in range(CLS_NUM):
     plt.scatter(x[i*N:(i+1)*N, 0], x[i*N:(i+1)*N, 1], s=40, marker=markers[i])
-plt.show()
+graph = plt.show()

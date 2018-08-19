@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch06')
 from common.time_layers import *
 from common.base_model import BaseModel
 

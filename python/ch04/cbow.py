@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch04')
 import numpy as np
 from common.layers import Embedding
 from ch04.negative_sampling_layer import NegativeSamplingLoss

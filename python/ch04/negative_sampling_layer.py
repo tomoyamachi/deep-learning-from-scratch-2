@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch04')
 from common.np import *  # import numpy as np
 from common.layers import Embedding, SigmoidWithLoss
 import collections

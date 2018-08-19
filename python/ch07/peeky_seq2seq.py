@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch07')
 from common.time_layers import *
 from seq2seq import Seq2seq, Encoder
 

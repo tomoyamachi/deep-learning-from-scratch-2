@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch08')
 import numpy as np
 from dataset import sequence
 import matplotlib.pyplot as plt

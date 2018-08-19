@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch04')
 from common.util import most_similar, analogy
 import pickle
 

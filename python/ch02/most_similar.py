@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch02')
 from common.util import preprocess, create_co_matrix, most_similar
 
 

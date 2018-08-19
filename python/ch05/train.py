@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')
+sys.path.append('ch05')
 from common.optimizer import SGD
 from common.trainer import RnnlmTrainer
 from dataset import ptb

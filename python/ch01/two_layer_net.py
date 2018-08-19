@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.append('..')  # 親ディレクトリのファイルをインポートするための設定
+sys.path.append('ch01')  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 from common.layers import Affine, Sigmoid, SoftmaxWithLoss
 
